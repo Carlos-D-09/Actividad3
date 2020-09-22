@@ -3,7 +3,7 @@
 int main (){
     unsigned int edad;
     char nombre[100];
-    //printf("Hello World");
+    printf("Hello World");
     printf("\n\nIntroduce tu nombre: ");
     fgets(nombre, sizeof(nombre),stdin);
     printf("\nHola: %s", nombre);
